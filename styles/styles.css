@@ -1,0 +1,54 @@
+#head_info{
+	font-weight: bold;
+}
+
+#signature{
+	margin-left: 100px;
+}
+
+#os_signature{
+	margin-left: 50px;
+}
+
+#om_signature{
+	margin-left: 70px;
+}
+
+#image_preview{
+	width:450px;
+	height: 430px;
+}
+
+.submit:hover{
+	background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+
+#message{
+	position:absolute;
+	top:800px;
+	left:715px;
+}
+
+#success{
+	color:green;
+}
+
+#invalid{
+	color:red;
+}
+
+#error{
+	color:red;
+}
+
+#error_message{
+	color:blue;
+}
+
+#loading{
+	display:none;
+	position:absolute;
+	top:50px;
+	left:850px;
+	font-size:25px;
+}

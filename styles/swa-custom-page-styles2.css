@@ -1,0 +1,657 @@
+#main { 
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    overflow: auto;
+}
+
+#wrapper1 {
+    background-color: white;
+    height: 60px;
+    width: 800px;
+}
+
+#wrapper2 {
+    background-color: white;
+    height: 60px;
+    width: 550px;
+    float: right;
+}
+
+#realans {
+    background-color: white;
+    height: 35px;
+    width: 550px;
+    font-size: 20pt;
+    text-align: right;
+    font-weight: bolder;
+    font-family: Segoe UI;
+}
+
+#page-wrap  {
+    width: 550;
+    height: 100px;
+    background: white;
+    float: right;
+    text-align: left;
+    
+    
+    right: 40px;
+}
+
+#bar {
+    background-color: black;
+    height: 5px;
+    width: 523px;
+    float: right;
+}
+
+#spacer {
+    background: white;
+    height: 10px;
+    width: 100px;
+}
+
+#swalogo {
+    background-color: white;
+    height: 60px;
+    width: 250px;
+    float: left;
+}
+
+#swa-logo    {
+    width: 250px;
+    height: 60px;
+    background: red;
+    float: left;
+}
+
+#body  {
+    width: 794px;
+    height: 20px;
+    float: right;
+    text-align: center;
+    border: 3px solid;
+}
+
+#body2  {
+    width: 100%;
+    height: 50px;
+    background: white;    
+    float: right;
+    text-align: center;
+}
+
+#body3  {
+    width: 100%;
+    height: 35px;
+    background: white;    
+    float: right;
+    text-align: left;
+}
+
+.body4  {
+    width: 100%;
+    height: 13px;
+    background: black;    
+    float: right;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 10pt;
+}
+
+#body5  {
+    width: 100%;
+    height: 35px;
+    background-color: white;    
+    float: right;
+    text-align: left;
+}
+
+#sigwrapper {
+    width: 100%;
+    height: 200px;
+    xbackground-color: gray;    
+    float: right;
+    text-align: left;
+    overflow: auto;   
+    text-align: center;
+}
+
+#placeholder {
+    width: 100%;
+    height: 40px;
+    xbackground: green;    
+    float: right;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 10pt;
+}
+
+.content  {
+    width: 794px;
+    float: right;
+    text-align: left;
+    border: 3px solid;
+    overflow: auto;
+}
+
+#swa-logo {
+    margin: auto;
+    width: 250px;
+    display: block;
+    height: 60px;
+}
+
+.smart {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+textarea {
+   font-family: "Verdana", sans-serif;
+   width: 99%;
+   resize:none;
+   border: 0px;
+   font-size:11pt;
+   overflow: auto;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 10pt;
+}
+#agentsigparent {
+    xbackground-color: violet;
+    height: 100px;
+    width: 50%;
+    float: left;
+}
+
+#agentsigchild1 {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+}
+
+#agentsigchild2 {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    z-index: 99;
+}
+
+#sigheight {
+    height: 90px;
+}
+
+#empname {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#empposition {
+    font-weight: bold;
+}
+
+#omsigparent {
+    xbackground-color: orange;
+    height: 100px;
+    width: 50%;
+    float: left;
+}
+
+#omsigchild1 {
+    xbackground-color: black;
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+}
+
+#omsigchild2 {
+    xbackground-color: violet;
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    z-index: 2;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+#ossigparent {
+    xbackground-color: gold;
+    height: 100px;
+    width: 50%;
+    float: left;
+}
+
+#ossigchild1 {
+    xbackground-color: black;
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+}
+
+#ossigchild2 {
+    xbackground-color: violet;
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    z-index: 2;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+.submit1 {
+    -moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
+    box-shadow:inset 0px 1px 0px 0px #a4e271;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809));
+    background:-moz-linear-gradient(top, #89c403 5%, #77a809 100%);
+    background:-webkit-linear-gradient(top, #89c403 5%, #77a809 100%);
+    background:-o-linear-gradient(top, #89c403 5%, #77a809 100%);
+    background:-ms-linear-gradient(top, #89c403 5%, #77a809 100%);
+    background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809',GradientType=0);
+    background-color:#89c403;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #74b807;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #528009;
+}
+.submit1:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403));
+    background:-moz-linear-gradient(top, #77a809 5%, #89c403 100%);
+    background:-webkit-linear-gradient(top, #77a809 5%, #89c403 100%);
+    background:-o-linear-gradient(top, #77a809 5%, #89c403 100%);
+    background:-ms-linear-gradient(top, #77a809 5%, #89c403 100%);
+    background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403',GradientType=0);
+    background-color:#77a809;
+}
+.submit1:active {
+    position:relative;
+    top:1px;
+}
+
+#login {
+    background-color: #d6d6d6;
+    height: 100px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+
+}
+
+#k1 {
+    xbackground-color: white;
+    width: 200px;
+    height: 30px;
+    float: left;
+    text-align: right;
+    padding-top: 5px;
+
+}
+
+#k2 {
+    xbackground-color: white;
+    width: 200px;
+    height: 30px;
+    float: left;
+    padding-top: 5px;
+}
+
+#k3 {
+    xbackground-color: white;
+    width: 200px;
+    height: 30px;
+    float: left;
+
+    text-align: right;
+}
+
+#k4 {
+    xbackground-color: white;
+    width: 200px;
+    height: 30px;
+    float: left;
+
+}
+
+#k5 {
+    xbackground-color: white;
+    width: 200px;
+    height: 30px;
+    float: right;
+}
+
+.field-divided {
+    width: 150px;
+}
+
+.sub {
+    width: 75px;
+}
+
+.myButton {
+    -moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
+    box-shadow:inset 0px 1px 0px 0px #a4e271;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809));
+    background:-moz-linear-gradient(top, #89c403 5%, #77a809 100%);
+    background:-webkit-linear-gradient(top, #89c403 5%, #77a809 100%);
+    background:-o-linear-gradient(top, #89c403 5%, #77a809 100%);
+    background:-ms-linear-gradient(top, #89c403 5%, #77a809 100%);
+    background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809',GradientType=0);
+    background-color:#89c403;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:0px solid green;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #528009;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403));
+    background:-moz-linear-gradient(top, #77a809 5%, #89c403 100%);
+    background:-webkit-linear-gradient(top, #77a809 5%, #89c403 100%);
+    background:-o-linear-gradient(top, #77a809 5%, #89c403 100%);
+    background:-ms-linear-gradient(top, #77a809 5%, #89c403 100%);
+    background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403',GradientType=0);
+    background-color:#77a809;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+        
+           
+ 
+ .inputs  { 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+background-color: #EAEAEA; 
+background: -moz-linear-gradient(top, #FFF, #EAEAEA); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF), color-stop(1.0, #EAEAEA)); 
+border: 1px solid #CACACA; 
+color: #444; 
+font-size: 1.4em; 
+margin: 0 0 25px; 
+padding: 5px 9px; 
+width:200px; 
+} 
+
+.inputs:focus { 
+    background: #FFF;
+    -webkit-box-shadow: 0 0 25px #CCC; 
+    -moz-box-shadow: 0 0 25px #ccc; 
+    box-shadow: 0 0 25px #CCC; 
+} 
+
+body {
+    font-family:"Verdana";
+    color: black;
+    padding-top:0px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#textbanner {
+    font-family: "Segoe UI Light";
+    font-size:40pt;
+}
+
+#div100 {
+    background-color:#F0F0F0;
+    width:220px;
+    padding:10px;
+    margin:0 auto;
+    overflow: auto;
+}
+
+#div101 {
+    background-color:#F0F0F0;
+}
+
+#div102 {
+    background-color:#F0F0F0;
+    height: 40px;
+}
+
+#div103 {
+    background-color:#F0F0F0;
+}
+
+#div104 {
+    background-color:#F0F0F0;
+    height: 40px;
+}
+
+#div105 {
+    margin:0 auto;
+    padding-top: 20px;
+    color: red;
+    font-weight: bold;
+    width:600px;
+    text-align: center;
+}
+
+#submit-button {
+    margin-top:5px;
+}
+
+#pass {
+    font-weight: bolder;
+    font-size: 16pt;
+}
+
+#phplog {
+    width: 900px;
+    height: 20px;
+    float: left;
+    position: absolute;
+    text-align: left;
+    padding-left: 50px;
+}
+#version {
+    xbackground-color: black;
+    width: 300px;
+    height: 20px;
+    float: right;
+}
+
+#banner {
+    width: 100%;
+    position: absolute;
+    height: 65px;
+    float: left;
+}
+
+/*#header {
+    background-color:#249b23;
+    position: relative;
+    color:white;
+    height:65px;
+    text-align: center;
+}
+
+
+#header {
+  background-color: #1a82f7;
+  background: url(images/linear_bg_2.png);
+  background-repeat: repeat-x;
+
+}*/
+
+#header {
+
+    
+    position: relative;
+    color:white;
+    height:65px;
+    text-align: center;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9de96+0,8ab66b+44,398235+100;Green+3D+%233 */
+background: #c9de96; /* Old browsers */
+background: -moz-linear-gradient(top,  #c9de96 0%, #8ab66b 44%, #398235 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c9de96), color-stop(44%,#8ab66b), color-stop(100%,#398235)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.whitetext {
+    color: white;
+}
+
+#user {
+    font-weight: bolder;
+}
+
+#spacing { /*spacing between the form and footer*/
+    background-color: white;
+    width: 100%;
+    height: 50px;
+}
+
+#spacer100 {
+    width: 100%;
+    height: 50px;
+    xbackground-color: yellow;
+}
+
+#insidespacer100 {
+    width: 500px;
+    height: 2px;
+    xbackground-color: brown;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #d4d4d4;
+    padding-top: 15px;
+}
+
+#spacer190 {
+    width: 100%;
+    height: 700px;
+    xbackground-color: yellow;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+/*CSS For Table Layout*/
+
+
+.users {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+}
+/* Column widths are based on these cells */
+.row-ID {
+  width: 10%;
+}
+.row-name {
+  width: 40%;
+}
+.row-job {
+  width: 30%;
+}
+.row-email {
+  width: 20%;
+}
+.users td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.users th {
+  background: darkblue;
+  color: white;
+}
+.users td,
+.users th {
+  text-align: left;
+  padding: 5px 10px;
+}
+.users tr:nth-child(even) {
+  background: lightblue;
+}.users {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+}
+/* Column widths are based on these cells */
+.row-ID {
+  width: 10%;
+}
+.row-name {
+  width: 40%;
+}
+.row-job {
+  width: 30%;
+}
+.row-email {
+  width: 20%;
+}
+.users td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.users th {
+  background: #d4d4d4;
+  color: white;
+}
+.users td,
+.users th {
+  text-align: left;
+  padding: 5px 10px;
+}
+.users tr:nth-child(even) {
+  background: #d4d4d4;
+}

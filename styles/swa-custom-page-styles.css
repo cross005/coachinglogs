@@ -1,0 +1,115 @@
+fieldset {
+	xdisplay:block;
+	margin-left:2px;
+	margin-right:2px;
+	xpadding-top:0.35em;
+	xpadding-bottom:0.625em;
+	xpadding-left:0.75em;
+	xpadding-right:0.75em;
+	border:2px solid;
+	xsize:10px;
+	text-align:center;
+  	width:500px;
+}
+
+legend {
+   border: 1px solid;
+   xmargin-left:300px;
+   background-color: black;
+   color: white;
+   font-family: Arial;
+   font-weight:bold;
+   bottom:214px;
+   left:25%;
+   width: 700px;
+}
+
+textarea {
+   font-family: Arial;
+   size:12pt;
+   width: 100%;
+   height: 200px;
+   resize:none;
+   border:0px;
+   font-size:12pt;
+   overflow:hidden;
+}
+
+#div1 {
+	text-align: center;
+	color: black;
+	font-size: 12pt;
+	background-color: #2c9208;
+	height: 80px;
+	position: relative;
+	x-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+   x-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+   xbox-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#div2 {
+	color: red;
+	font-size: 12pt;
+	background-color: white;
+	padding-right: 5px;
+	width: 300px;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	left: 16%;
+	top: 60px;
+   -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#div3 {
+	background-color: orange;
+	height: 100px;
+	margin-left: auto;
+  	margin-right: auto;
+   width: 900px;
+   text-align: center;
+   font-family: Arial;
+
+}
+
+#div4 {
+	background-color: yellow;
+	width: 624px;
+}
+
+#div5 {
+	background-color: violet;
+	float: right;
+	position: relative;
+	width: 100px;
+	height: 50px;
+	display: block;
+
+}
+
+body{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   padding: 0;
+   color: black; font-size: 10pt; font-family: "Trebuchet MS", sans-serif;
+   background-color: white;
+}
+
+#swa-logo {
+	margin: auto;
+	width: 250px;
+	display: block;
+}
+
+#text {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20pt;
+}
+
